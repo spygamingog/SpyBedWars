@@ -1,0 +1,21 @@
+# SpyBedWars Global Configuration
+
+# The main lobby location where players go when they leave a game or join the server
+main-lobby: ""
+
+# Database settings (SQLite by default)
+database:
+  type: SQLITE # SQLITE or MYSQL
+  mysql:
+    host: localhost
+    port: 3306
+    database: spybedwars
+    username: root
+    password: ""
+
+# Default game settings
+defaults:
+  min-players: 2
+  max-players: 8
+  countdown-waiting: 30
+  countdown-starting: 10
