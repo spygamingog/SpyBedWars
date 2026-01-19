@@ -1,0 +1,35 @@
+# SpyBedWars Global Configuration
+
+# The main lobby location where players go when they leave a game or join the server
+main-lobby: ""
+
+# Database settings (SQLite by default)
+database:
+  type: SQLITE # SQLITE or MYSQL
+  mysql:
+    host: localhost
+    port: 3306
+    database: spybedwars
+    username: root
+    password: ""
+
+# Default game settings
+defaults:
+  min-players: 2
+  max-players: 8
+  countdown-waiting: 30
+  countdown-starting: 10
+
+# Default Quick Buy items for new players
+# Slot numbers for the 3 middle rows:
+# Row 1: 19, 20, 21, 22, 23, 24, 25
+# Row 2: 28, 29, 30, 31, 32, 33, 34
+# Row 3: 37, 38, 39, 40, 41, 42, 43
+quick-buy-defaults:
+  19: "Wool"
+  20: "Stone Sword"
+  21: "Chainmail Armor"
+  22: "Bow"
+  23: "Speed II Potion (45s)"
+  24: "TNT"
+  25: "Golden Apple"

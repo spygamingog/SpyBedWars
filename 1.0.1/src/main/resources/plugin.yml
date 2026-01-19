@@ -1,0 +1,15 @@
+name: SpyBedWars
+version: 1.0.1
+main: com.spygamingog.spybedwars.SpyBedWars
+api-version: '1.21'
+depend: [SpyCore, SpyNPCs, ProtocolLib]
+author: SpyGamingOG
+description: A BedWars plugin inspired by BedWars1058.
+commands:
+  bw:
+    description: Main command for SpyBedWars
+    aliases: [bedwars, spybedwars]
+permissions:
+  spybedwars.admin:
+    description: Allows administration of SpyBedWars
+    default: op

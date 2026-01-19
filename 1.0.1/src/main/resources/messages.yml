@@ -1,0 +1,44 @@
+# SpyBedWars Messages
+
+prefix: "&8[&bSpyBedWars&8] "
+
+no-permission: "&cYou don't have permission to do this!"
+only-players: "&cOnly players can use this command."
+arena-not-found: "&cArena not found!"
+
+game:
+  starting: "&eThe game is starting in &b{time} &eseconds!"
+  started: "&aThe game has started!"
+  not-enough-players: "&cNot enough players! Countdown reset."
+  bed-broken: "{team_color}{team_name} &ebed was broken by &b{player}&e!"
+  cannot-break-own-bed: "&cYou cannot break your own bed!"
+  respawn: "&eYou will respawn in &b5 &eseconds..."
+  eliminated: "&cYour bed was broken! You are now a spectator."
+  cannot-break-block: "&cYou can only break blocks placed by players!"
+  winner: "{team_color}{team_name} &ehas won the game!"
+  no-winner: "&eThe game ended with no winner!"
+  kill: "&b{player} &ewas killed by &b{killer}&e!"
+  final-kill: "&b{player} &ewas eliminated by &b{killer}&e!"
+  void-death: "&b{player} &efell into the void!"
+  final-void-death: "&b{player} &efell into the void and was eliminated!"
+  phase:
+    diamond-2: "&bDiamond Generators have been upgraded to Tier II!"
+    emerald-2: "&aEmerald Generators have been upgraded to Tier II!"
+    bed-destruction: "&cAll beds have been destroyed!"
+    sudden-death: "&4Sudden Death! Dragons have spawned!"
+    ending: "&cGame time limit reached! Ending game..."
+
+setup:
+  arena-created: "&aArena '&b{name}&a' created successfully!"
+  arena-exists: "&cAn arena with that name already exists!"
+  waiting-set: "&aWaiting lobby set for &b{arena}&a!"
+  spawn-set: "&aSpawn point for team {team} set in &b{arena}&a!"
+  bed-set: "&aBed location for team {team} set in &b{arena}&a!"
+  generator-added: "&a{type} generator added to &b{arena}&a!"
+  lobby-set: "&aMain lobby set successfully!"
+  type-set: "&aArena type for &b{arena} &aset to &b{type}&a!"
+  min-players-set: "&aMinimum players for &b{arena} &aset to &b{count}&a!"
+  max-players-set: "&aMaximum players for &b{arena} &aset to &b{count}&a!"
+  shop-set: "&aShop NPC for team {team} set in &b{arena}&a!"
+  upgrade-set: "&aUpgrade NPC for team {team} set in &b{arena}&a!"
+  spectator-set: "&aSpectator spawn set for &b{arena}&a!"
